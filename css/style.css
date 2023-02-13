@@ -72,13 +72,13 @@ body {
 }
 .principal h2 {
   text-align: center;
-  color: white;
+  color: rgb(131, 131, 131);
   margin: 2rem;
   font-size: 2rem;
 }
 .principal h3 {
   text-align: center;
-  color: white;
+  color: rgb(135, 132, 132);
   margin: 2rem;
   font-size: 1.5rem;
 }
@@ -190,6 +190,34 @@ body {
 .btn-primary:hover {
   background: rgb(255, 255, 255);
   color: grey;
+}
+
+.redes h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+.redes ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+}
+.redes ul li {
+  list-style: none;
+}
+.redes ul li p {
+  color: white;
+}
+.redes ul li p:hover {
+  display: block;
+}
+.redes ul li a img {
+  width: 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
