@@ -92,14 +92,23 @@ body{
         margin: 0;
         overflow: hidden;
     }
+    .card-body{
+        button a{
+            text-decoration: none;
+            color: bisque;
+        }
+    }
 }
 .nosotros{
     text-align: center;
     color: rgb(165, 162, 162);
     h2{
         color: rgb(255, 255, 255);
-        margin: 1.3rem;
-        font-size: 2rem;
+        margin: 3rem;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
     }
 }
 .formulario{
@@ -141,10 +150,13 @@ body{
         h4{
             color: rgb(255, 255, 255);
         }
+        h3{
+            text-align: center;
+            font-size: 1rem;
+        }
     
     nav 
         {
-            padding-top: 100px;
         
         ul{
             display:grid;
@@ -159,5 +171,20 @@ body{
                 color: rgb(142, 139, 139);
             }
         } 
+    }
+}
+.separacion__2{
+    background: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.btn-primary{
+    background: gray;
+    border: gray;
+    &:hover{
+        background: rgb(255, 255, 255);
+        color:grey ;
     }
 }
