@@ -92,10 +92,15 @@ body {
 }
 .peinados img {
   width: 250px;
-  height: 300px;
+  height: 70px;
   object-fit: contain;
   margin: 0;
   overflow: hidden;
+}
+@media (min-width: 765px) {
+  .peinados img {
+    height: 230px;
+  }
 }
 .peinados .card-body button a {
   text-decoration: none;
@@ -218,6 +223,17 @@ body {
   background: rgb(255, 255, 255);
   border-radius: 50%;
   margin: 0.5rem;
+}
+
+#estilos {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .nosotros__ubicacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
