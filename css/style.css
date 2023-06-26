@@ -55,6 +55,19 @@ body {
 .imagenes img {
   object-fit: contain;
   margin: 0 auto;
+  max-height: 500px;
+  height: 230px;
+}
+@media (min-width: 765px) {
+  .imagenes img {
+    height: 340px;
+    width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .imagenes img {
+    height: 500px;
+  }
 }
 
 .enlaces .card {
@@ -91,7 +104,7 @@ body {
   margin: auto;
 }
 .peinados img {
-  width: 250px;
+  width: 70px;
   height: 70px;
   object-fit: contain;
   margin: 0;
@@ -99,7 +112,14 @@ body {
 }
 @media (min-width: 765px) {
   .peinados img {
-    height: 230px;
+    height: 182px;
+    width: 182px;
+  }
+}
+@media (min-width: 1240px) {
+  .peinados img {
+    height: 300px;
+    width: 300px;
   }
 }
 .peinados .card-body button a {
